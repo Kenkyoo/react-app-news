@@ -1,0 +1,90 @@
+body {
+  font-size: 16px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto 20px;
+  position: relative;
+  top: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.card-md {
+  width: 500px;
+}
+
+.select-container {
+  display: grid;
+  place-items: center;
+  gap: 10px;
+  margin: 20px auto;
+}
+.select-container label {
+  text-align: center;
+  color: white;
+}
+.select-container select {
+  padding: 12px;
+}
+.select-container option {
+  color: white;
+}
+
+.reader-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+}
+
+.heading {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+}
+
+#inputSearch {
+  width: 200px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 0 20px;
+    font-size: 0.8rem;
+  }
+  .card-md {
+    min-height: 80vh;
+    height: 100%;
+    width: 100%;
+  }
+  .card-sm {
+    height: 250px;
+  }
+  .card-sm .card-title {
+    font-size: 0.8rem;
+  }
+  .card-sm figure img {
+    border-radius: 12px;
+  }
+  .card-sm .card-actions button {
+    padding: 5px;
+    width: 40px;
+    height: 10px;
+  }
+  .card-body {
+    line-height: 1.5;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
